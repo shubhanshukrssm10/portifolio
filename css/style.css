@@ -97,7 +97,6 @@ button{cursor: pointer;}
 .wrap3 .about{font-size: 40px; margin-top: 9%; text-align: center; font-weight: bolder;}
 .wrap3 .a{text-align: center; font-weight: bolder;color:#dc143c; font-size: 20px;}
 .wrap3 .img{max-width: 100%; height: auto; margin: auto; display: block; margin-top: 20%; margin-bottom: 10%;}
-.wrap3 img:hover{ transform: scale(1.1);transition-duration: .5s;}
 .wrap3 .intro{background-image: url(../images/gradient.webp); background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent;  font-weight: bold; font-size: 24px; margin-top: 20%;}
 .wrap3 .q{color: #ff5202; font-weight: bolder; font-size: 24px; margin-top: 5%; text-align: center;}
 .wrap3 .tbl ,th, td{background-image: url(../images/gradient.webp); background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-top: 2%; border: 2px solid #ff0062;  height: 50px; width: auto; font-size: 16px; }
@@ -146,7 +145,7 @@ button{cursor: pointer;}
 .wrap6 h1{color: #fff; text-align: center;margin: 5% 0; font-weight: bolder;}
 .wrap6 .box{ display: flex; justify-content: center;  margin-bottom: 20%; background: black;  border-radius: 30px;}
 /* .wrap6 .first{display: flex; justify-content: center;} */
-.wrap6 .box:hover{transform: scale(1.2);transition-duration: .5s;}
+
 
 .wrap7{background-color: #fff;}
 .wrap7 .contact{color: #000; font-size: 40px; margin-top: 9%; text-align: center; font-weight: bolder;}
@@ -164,7 +163,7 @@ button{cursor: pointer;}
 .wrap8{background-color: #000;}
 .wrap8 .f{text-align: center; margin: 5px 5px; font-size: 16px; font-weight: 900;font-family: p; background-image: url(../images/abstract-blur-gradient-background-vector.webp); background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 .wrap8 a{ color: #dc143c;}
-.wrap8 .top{color: #dc143c; font-size: 25px; position: fixed; right: 50px; bottom: 50px; border: 2px solid #dc143c; border-radius: 50%; padding: 10px 20px;}
+.wrap8 .top{color: #dc143c; font-size: 25px; position: fixed; right: 50px; bottom: 50px; border: 2px solid #dc143c; border-radius: 50%; padding: 13px 20px;}
 
 
 
@@ -224,9 +223,10 @@ button{cursor: pointer;}
 
 .wrap7 .f{font-size: 16px; font-weight: 900;}
 
-.wrap8 .top{font-size: 20px; padding: 10px 20px;}
+.wrap8 .top{font-size: 20px; padding: 13px 20px;}
 }
 @media screen and (max-width: 500px){ 
+  .container {width: 100%}
     .col-p-6{flex:1 1 50%; padding: 0 15px;}
     .wrap1 .menu{ margin-top: 7%;}
 
@@ -244,5 +244,5 @@ button{cursor: pointer;}
     .wrap7 #z{width: 99%;}
 
     .wrap8 .f{font-size: 16px; font-weight: 900;}
-    .wrap8 .top{font-size: 18px; padding: 10px 20px;}
+    .wrap8 .top{font-size: 18px; padding: 13px 20px;}
 }
